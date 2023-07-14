@@ -9,7 +9,7 @@
       <v-toolbar-title>DeTodito</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-badge :content="cartCount" class="ma-2" :value="cartCount>0">
-            <v-icon @click="redirectTo('Cart')">mdi-cart</v-icon>
+            <v-icon @click="redirectTo('/carro')">mdi-cart</v-icon>
         </v-badge>
     </v-app-bar>
 

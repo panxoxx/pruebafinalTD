@@ -2,7 +2,7 @@
   <v-app>
    <nav-bar></nav-bar>     
 
-    <v-main  >
+    <v-main  class="background-container">
       <router-view/>
     </v-main>
     <my-footer></my-footer>
